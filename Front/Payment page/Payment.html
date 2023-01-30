@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Payment</title>
+</head>
+<body>
+    <header>
+        <div class="contain">
+             <nav>
+                 <h1 class="logo">E<span>7</span>KY</h1>
+                 <ul>
+                     <li><a class="active" href="../Home-contact-blog Page/Home.html">HOME</a></li>
+                     <li><a href="../Home-contact-blog Page/Home.html">ABOUT</a></li>
+                     <li><a href="../Home-contact-blog Page/Home.html">SERVICES</a></li>
+                     <li><a href="../Home-contact-blog Page/Home.html">TEAM</a></li>
+                     <li><a href="../Doctors-Patient page/OUR EXPERTS.html">OUR EXPERTS</a></li>
+                     <li><a href="../Home-contact-blog Page/Blog.html">BLOG</a></li>
+                     <li><a href="../Home-contact-blog Page/Contact.html">CONTACT US</a></li>
+                 </ul>
+             </nav>
+         </div>
+    </header>
+
+    <div class="container">
+        <div class="payment-content">
+            <h3>select payment method</h3>
+            <div class="payment-icon">
+                <span class="active"><i class="fa fa-credit-card fa-lg"></i> Credit Card</span>
+                <span class="mg"><i class="fa fa-exchange fa-lg"></i> Bank Transfer</span>    
+                <span><i class="fa fa-paypal fa-lg"></i> Paypal</span> 
+            </div>
+            <div class="payment-img">
+                <img src="images/payments.jpg" alt="Payment Image" draggable="false">
+            </div>
+        </div> <!-- ./payment-content -->
+        <div class="payment-info">
+            <div class="payment-info-billing">
+                <div class="title-billing">
+                    <span>1</span>
+                    <h2>Billing Info</h2>
+                </div>
+                <form>
+                    <input type="text" placeholder="FULL NAME">
+                    <input type="text" placeholder="BILLING ADDRESS">
+                    <input type="text" placeholder="CITY">
+                    <input type="number" placeholder="ZIP CODE">
+                    <select>
+                        <option hidden>COUNTRY</option>
+                        <option>Africa</option>
+                        <option>Asia</option>
+                        <option>Europa</option>
+                    </select>
+                </form>
+            </div> <!-- ./payment-info -->
+            <div class="payment-info-card">
+                <div class="title-card">
+                    <span>2</span>
+                    <h2>Credit Card Info</h2>
+                </div>
+                <form>
+                    <input type="text" placeholder="CARDHOLDER'S NAME">
+                    <input type="text" placeholder="CARD NUMBER">
+                    <select>
+                        <option hidden>SELECT MONTH</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                    </select>
+                    <select>
+                        <option hidden>SELECT YEAR</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
+                    <input type="number" placeholder="CVV">
+                </form>
+            </div>
+        </div> <!-- ./payment-info -->
+        <div class="process">
+            <a href="../Home-contact-blog Page/Home.html"> Back to Home </a>
+            <button>PURCHASE NOW</button>
+        </div>
+    </div> <!-- ./container -->
+    
+</body>
+</html>

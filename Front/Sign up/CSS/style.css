@@ -1,0 +1,156 @@
+body {
+    height: 50vh;
+    background-image: url(../images/pic1.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #9c27b0c9;
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 380px;
+    height: 610px;
+    margin: 90px auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+    position: relative;
+}
+
+.header{
+    width: 400px;
+    height: 80px;
+    background-color: #f7f7f7;
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.header h2{
+    position: absolute;
+    margin: 30px ;
+}
+
+.un {
+width: 85%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-left: 20px;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 40px;
+}
+
+.email{
+width: 85%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-left: 20px;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.pass {
+width: 85%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-left: 20px;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.un:focus, .pass:focus , .email:focus{
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.submit:hover{
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.move{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.date-name , .gender-name{
+    font-weight: 700;
+    font-size: 20px; 
+}
+
+.date-calender{
+    padding: 10px 10px;
+    margin-left: 5px;
+}
+
+.gender-name{
+    margin-bottom: 50px;
+}
+
+#gender-male{
+    margin-top: 15px; 
+}
+
+.cond{
+    margin: 25px 5px;
+    margin-bottom: 30px;
+}
+
+.text{
+    margin-left: 33px;
+    margin-top: 35px;
+}
+
